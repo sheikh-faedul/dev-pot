@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 60px;
@@ -9,7 +10,26 @@ h1{
 }
 section{
     display: flex;
+
 }
 .para1{
-    height: 250px;
+   
+    width: 70%;
+    padding-left: 1%;
+}
+.para1 img{
+    width: 100%;
+}
+.link-button{
+   text-decoration: none;
+   background-image: linear-gradient(rgb(233, 120, 139), rgb(192, 24, 192));
+   color: white;
+   font-weight: 800;
+   padding: 2px 50px;
+   border-radius: 5px;
+   
+}
+.top{
+    background-image:url(images/top-banner.png) ;
+    background-repeat: no-repeat;
 }
