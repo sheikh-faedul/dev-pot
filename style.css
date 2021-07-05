@@ -8,7 +8,7 @@ h1{
 .org-color{
     color: orangered;
 }
-section{
+.experience-area{
     display: flex;
 
 }
@@ -38,3 +38,24 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+#ex{
+    text-align: center;
+}
+.web{
+    margin: 5%;
+    padding-left: 2%;
+    padding-right: 7px;
+    text-align: justify;
+    box-shadow : 10px 5px 10px gray;
+    border-left: 8px solid;
+    border-radius: 20px;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 1;
+}
+#dg{
+    border-image: linear-gradient(rgb(207, 44, 71),orange);
+    border-image-slice: 1;}
+ footer p{
+     text-align: center;
+ }   
+
